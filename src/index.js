@@ -1,16 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 import App from "./App";
-import { BrowserRouter } from 'react-router-dom';
-import "./primevideo-global.css";
+import { BrowserRouter as Router } from "react-router-dom";
+
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.js";
 import "jquery/dist/jquery.js";
 import "popper.js/dist/popper.js";
-
+import "bootstrap/dist/js/bootstrap.js";
+import "./primevideo-global.css";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router>
     <App />
-  </BrowserRouter>, document.getElementById("root")
+  </Router>,
+  document.getElementById("root")
 );

@@ -20,7 +20,7 @@ class HomeComponent extends Component {
             <div className="card-img-overlay">
               <h5 className="card-title">Welcome to Prime Video</h5>
               <p className="card-text">
-                Join Prime to watch the latest movies, <br/> TV shows and
+                Join Prime to watch the latest movies, <br /> TV shows and
                 award-winning Amazon Originals
               </p>
               <Link to="/register" className="btn btn-primary">
@@ -41,8 +41,8 @@ class HomeComponent extends Component {
               <h5 className="card-title">Great Entertainment</h5>
               <p className="card-text">
                 With your Prime membership, you have access to exclusive Amazon
-                Originals, <br/> blockbuster Bollywood movies, regional movies and
-                more.
+                Originals, <br /> blockbuster Bollywood movies, regional movies
+                and more.
               </p>
               <Link to="/register" className="btn btn-primary">
                 Get started
@@ -61,9 +61,9 @@ class HomeComponent extends Component {
             <div className="card-img-overlay">
               <h5 className="card-title">One membership, many benefits</h5>
               <p className="card-text">
-                Your Prime membership now also includes ad-free music <br/> along with
-                unlimited free, fast delivery on eligible items, <br/> exclusive
-                access to deals & more.
+                Your Prime membership now also includes ad-free music <br />{" "}
+                along with unlimited free, fast delivery on eligible items,{" "}
+                <br /> exclusive access to deals & more.
               </p>
               <Link to="/register" className="btn btn-primary">
                 Get started
@@ -83,9 +83,10 @@ class HomeComponent extends Component {
               <h5 className="card-title">Even better with Fire TV Stick</h5>
               <p className="card-text">
                 The biggest movies and TV shows are always better on a big
-                screen. <br/> Simply plug in your Amazon Fire TV Stick and stream on
-                any HDTV. <br/> Press the voice button on the remote and say the name
-                <br/> of the title you want to watch to find it in seconds.
+                screen. <br /> Simply plug in your Amazon Fire TV Stick and
+                stream on any HDTV. <br /> Press the voice button on the remote
+                and say the name
+                <br /> of the title you want to watch to find it in seconds.
               </p>
               <Link to="/register" className="btn btn-primary">
                 Get started
@@ -151,9 +152,11 @@ class HomeComponent extends Component {
             <div className="card-img-overlay">
               <h1 className="card-title">Family Friendly</h1>
               <p className="card-text text-bolder">
-                With easy to use Parental Controls and a dedicated kids page,<br/>
-                enjoy secure, ad-free kids entertainment. Kids can enjoy <br/> popular
-                TV shows like Peppa Pig, Powerpuff Girls, and Chhota Bheem.
+                With easy to use Parental Controls and a dedicated kids page,
+                <br />
+                enjoy secure, ad-free kids entertainment. Kids can enjoy <br />{" "}
+                popular TV shows like Peppa Pig, Powerpuff Girls, and Chhota
+                Bheem.
               </p>
               <Link to="/register" className="btn btn-primary">
                 Get started
